@@ -13,7 +13,6 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-//@JsonRootName("")
 public class Message {
     @JsonProperty("wolfhound")
     List<String> affenpinschers;
